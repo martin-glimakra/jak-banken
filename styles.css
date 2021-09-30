@@ -9,12 +9,16 @@ li a {
     color: white;
 }
 
-.top-section {
+header {
     background-color: lightgreen;
     width: 800px;
     height: 500px;
     display: flex;
     flex-direction: column;
+    background-image: url(/startsida_host_v2.97487e7b.fill-2000x800.jpg);
+    background-size: auto ;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .first-menu-container {
@@ -48,10 +52,4 @@ li a {
 
 .menu-item-list li:hover {
     text-decoration: underline;
-}
-.top-section {
-    background-image: url(/startsida_host_v2.97487e7b.fill-2000x800.jpg);
-    background-size: auto ;
-    background-repeat: no-repeat;
-    background-position: center;
 }
