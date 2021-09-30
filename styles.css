@@ -49,3 +49,28 @@
     flex: 1;
     background-color: greenyellow;
 }
+
+.logo-container img {
+    background-color: pink;
+    padding: 20px 40px 10px;
+}
+
+.list-container div a {
+    color: white;
+    text-decoration: none;
+}
+
+.list-container div a:hover {
+    opacity: 20%;
+}
+
+#log-in-btn {
+    background-color: tomato;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#log-in-btn:hover {
+    border: 3px solid green;
+}
