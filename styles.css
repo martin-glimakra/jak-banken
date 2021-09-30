@@ -9,10 +9,10 @@ li a {
     color: white;
 }
 
-header {
+.top-container {
     background-color: lightgreen;
-    width: 800px;
-    height: 500px;
+    width: 750px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     background-image: url(/startsida_host_v2.97487e7b.fill-2000x800.jpg);
