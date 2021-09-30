@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+.top-section {
+    background-color: lightgreen;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-menu-container {
+    display: flex;
+    border-bottom: 2px solid lightgray;
+}
+
+.second-menu-container {
+    display: flex;
+}
+
+.second-menu-container-space {
+    flex: 1;
+}
+
+.first-menu-container-space {
+    flex: 1;
+}
+
+.menu-item-list {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.menu-item-list li {
+    margin: 3px;
+    font-size: 20px;
+    color: white;
+}
+
+.menu-item-list li:hover {
+    text-decoration: underline;
+}
+.top-section {
+    background-image: url(/startsida_host_v2.97487e7b.fill-2000x800.jpg);
+    background-size: auto ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
