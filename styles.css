@@ -4,52 +4,40 @@
     box-sizing: border-box;
 }
 
-li a {
-    text-decoration: none;
-    color: white;
-}
-
 .top-container {
-    background-color: lightgreen;
+    background-color: blueviolet;
     width: 750px;
     height: 300px;
     display: flex;
     flex-direction: column;
     background-image: url(/startsida_host_v2.97487e7b.fill-2000x800.jpg);
-    background-size: auto ;
-    background-repeat: no-repeat;
+    background-size: auto;
+    background-repeat:no-repeat ;
     background-position: center;
 }
 
 .first-menu-container {
+    background-color: brown;
     display: flex;
-    border-bottom: 2px solid lightgray;
-}
-
-.second-menu-container {
-    display: flex;
-}
-
-.second-menu-container-space {
-    flex: 1;
 }
 
 .first-menu-container-space {
     flex: 1;
+    background-color: gray;
 }
 
-.menu-item-list {
+.second-menu-container {
+    background-color: forestgreen;
+}
+
+.hero-text-container {
+    flex: 1
+}
+
+.list-container {
     display: flex;
-    list-style-type: none;
-    align-items: center;
 }
 
-.menu-item-list li {
+.list-container div {
     margin: 3px;
-    font-size: 20px;
-    color: white;
-}
-
-.menu-item-list li:hover {
-    text-decoration: underline;
 }
